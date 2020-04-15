@@ -1,0 +1,23 @@
+@media screen and(max-width:1000px){
+  .lesson{
+    width:50%;
+  }
+}
+@media screen and(max-width:670px){
+  .lesson{
+    width:100%;
+
+  }
+  .btn{
+    width:80%;
+  }
+  .header-right li{
+    display:none;
+  }
+  .header-right span{
+    display:block;
+    float:right;
+    color:white;
+    line-height:65px;
+  }
+}
