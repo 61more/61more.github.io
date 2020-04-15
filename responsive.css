@@ -1,9 +1,9 @@
-@media screen and(max-width:1000px){
+@media all and (max-width:1000px) {
   .lesson{
     width:50%;
   }
 }
-@media screen and(max-width:670px){
+@media all and (max-width:670px){
   .lesson{
     width:100%;
 
@@ -19,5 +19,13 @@
     float:right;
     color:white;
     line-height:65px;
+    font-size:30px;
+  }
+  .facebook {
+    margin:0 0 20px 1px;
+    
+  }
+  .lesson-icon {
+    margin:20px 0;
   }
 }
