@@ -171,3 +171,6 @@ footer img{
 footer p{
     color:rgba(189, 189, 189, 0.808);
 }
+.header-right span {
+    display:none;
+}
