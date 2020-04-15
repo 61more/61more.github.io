@@ -1,0 +1,173 @@
+a {
+    text-decoration:none ;
+}
+.clear{
+    clear: both;
+}
+ul {
+    list-style: none;
+    
+}
+header {
+    background-color:rgba(34, 49, 52, 0.9);
+    height: 65px;
+    position: fixed;
+    width:100%;
+    z-index: 10;
+}
+
+.header-left {
+    float:left;
+    padding-top: 20px;
+}
+.logo{
+    width: 124px;
+    
+}
+
+.header-right li {
+    float: right;
+    color:white;
+    
+    line-height: 65px;
+    
+}
+
+
+.header-right a {
+    display:inline-block;
+    color:white;
+   
+    padding:0 10px;
+    transition: all 0.5s;
+    
+}
+
+.header-right a:hover {
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+
+.container{
+    width:90%;
+    margin:0 auto;
+
+}
+.top-wrapper {
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    padding:180px 0 100px 0;
+    text-align:center;
+    color:white;
+    
+}
+
+.copy h1 {
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size:45px
+}
+.copy {
+    opacity: 0.7;
+}
+.copy p {
+    margin:10px 0;
+}
+.btn {
+    display:inline-block;
+    padding:8px 24px;
+    color:white;
+    opacity:0.8;
+    border-radius: 4px;
+}
+.register {
+    background-color:rgb(24, 131, 24);
+    margin-top:10px;
+}
+.facebook {
+    background-color: rgb(55, 55, 139);
+    margin-right: 8px;
+}
+.twitter {
+    background-color: rgb(85, 179, 216);
+}
+.sign-up p{
+    color:white;
+    opacity:0.7;
+    margin:10px 0;
+}
+.sign-up a:hover {
+    opacity:1;
+}
+
+.lesson-wrapper {
+    background-color: rgba(241, 241, 237, 0.76);
+    text-align: center;
+    padding-bottom:100px;
+    
+}
+.lesson-wrapper h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding:50px 0 0px 0;
+}
+
+.lesson {
+    float:left;
+    width:25%;
+}
+.lesson-icon {
+    position: relative;
+    margin:20px 0;
+}
+.lesson-icon p{
+    position: absolute;
+    top:90px;
+    width:100%;
+    color:white;
+}
+.text {
+    width:80%;
+    color:rgb(168, 168, 161);
+    display:inline-block;
+}
+.bottom-wrapper {
+    text-align: center;
+    margin-top:40px;
+    padding-bottom: 50px;;
+    border-bottom:1px solid rgba(230, 229, 229, 0.795);
+}
+h3{
+    font-size:30px;
+}
+.bottom-wrapper p{
+    font-size:15px;
+    padding:10px 0;
+}
+.message{
+    background-color: rgb(6, 192, 6);
+    border-radius: 0;
+    box-shadow:0 7px rgb(20, 116, 20);
+    margin:15px 0;
+    opacity: 0.7;
+  
+}
+.message:hover{
+    opacity:1;
+}
+.message:active{
+    box-shadow: none;
+    position: relative;
+    top:7px;
+}
+footer{
+    
+    padding-top:15px;
+}
+footer img{
+    width:124px;
+    
+}
+footer p{
+    color:rgba(189, 189, 189, 0.808);
+}
